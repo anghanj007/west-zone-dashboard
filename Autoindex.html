@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>West Zone D0 Reporting Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; font-size: 12px; color: #222; background: #f4f6fb; }
+  .topbar { background: #1F3864; color: #fff; padding: 12px 20px; font-size: 25px; font-weight: bold; text-align: center; }
+  .dual-status { display: grid; grid-template-columns: 1fr 1fr; }
+  .status-bar { padding: 7px 16px; font-size: 11px; border-left: 4px solid #ffc107; background: #fff3cd; color: #222; }
+  .status-ok   { background: #d4edda; border-color: #28a745; }
+  .status-err  { background: #f8d7da; border-color: #dc3545; }
+  .status-none { background: #f9f9f9; border-color: #ccc; color: #888; }
+  .container { padding: 14px 20px; }
+  .ctrl-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 10px 14px; background: #fff; border: 1px solid #dce6f1; border-radius: 6px; margin-bottom: 14px; }
+  .ctrl-lbl { font-weight: bold; font-size: 11px; color: #555; white-space: nowrap; }
+  select { padding: 5px 10px; border: 1px solid #bdd7ee; border-radius: 4px; font-size: 11px; background: #fff; color: #222; }
+  .type-toggle { display: flex; gap: 4px; }
+  .type-btn { padding: 5px 16px; border-radius: 20px; font-size: 11px; cursor: pointer; background: #f0f4fb; color: #555; font-weight: 500; border: none; }
+  .type-btn:hover { background: #dce6f1; }
+  .mye-active  { background: #1F3864 !important; color: #fff !important; }
+  .fkmp-active { background: #2e4d7a !important; color: #fff !important; }
+  .report-panel { display: none; }
+  .report-panel.active { display: block; }
+  .report-tag { display: inline-block; padding: 3px 12px; border-radius: 10px; font-size: 10px; font-weight: 600; margin-bottom: 12px; }
+  .tag-mye  { background: #d0e8ff; color: #0c4a7c; }
+  .tag-fkmp { background: #ffe0cc; color: #7a2e00; }
+  h3 { font-size: 11px; text-decoration: underline; color: #1F3864; margin: 14px 0 5px; }
+  table { border-collapse: collapse; width: 100%; font-size: 11px; margin-bottom: 10px; }
+  th { background: #1F3864; color: #fff; padding: 5px 8px; text-align: center; border: 1px solid #16305a; white-space: nowrap; }
+  td { padding: 4px 8px; border: 1px solid #ccc; text-align: center; }
+  td.lbl { text-align: left; white-space: nowrap; font-weight: 500; }
+  tr:nth-child(even) td { background: #dce6f1; }
+  tr:nth-child(odd)  td { background: #eaf0fb; }
+  .grand td { background: #bdd7ee !important; font-weight: bold; }
+  .gm-hdr { background: #1F3864; color: #fff; padding: 4px 12px; margin: 12px 0 4px; font-size: 11px; font-weight: bold; border-radius: 3px; display: inline-block; }
+  .footer { color: #999; font-size: 10px; margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; }
+  #loader { text-align: center; padding: 50px; font-size: 16px; color: #1F3864; }
+</style>
+</head>
+<body>
+
+<div class="topbar">West Zone D0 Reporting Dashboard</div>
+
+<div id="loader">Loading Dashboard Data...</div>
+
+<div id="dashboard-content" style="display:none;">
+  <div class="dual-status">
+    <div id="status-mye"></div>
+    <div id="status-fkmp"></div>
+  </div>
+
+  <div class="container">
+    <div class="ctrl-bar">
+      <span class="ctrl-lbl">Report:</span>
+      <div class="type-toggle">
+        <button class="type-btn mye-active" id="btn-mye" onclick="switchReport('mye')">&#128230; MYE NRT</button>
+        <button class="type-btn" id="btn-fkmp" onclick="switchReport('fkmp')">&#9889; FKMP D0 Breach</button>
+      </div>
+      <span class="ctrl-lbl">Date:</span>
+      <select id="date-select" onchange="onDateChange()"></select>
+      <span class="ctrl-lbl">Report Time:</span>
+      <select id="till-select" onchange="onTillChange()"></select>
+    </div>
+
+    <div id="report-mye" class="report-panel active">
+      <div class="report-tag tag-mye">&#128230; MYE NRT — D0 Omni + PPMP West Zone</div>
+      <div id="mye-panels"></div>
+    </div>
+    <div id="report-fkmp" class="report-panel">
+      <div class="report-tag tag-fkmp">&#9889; FKMP D0 — Attempt Breach West Zone</div>
+      <div id="fkmp-panels"></div>
+    </div>
+
+    <div class="footer">NRT West Zone Automation &nbsp;|&nbsp; Developed by Anghan Juliyas</div>
+  </div>
+</div>
+
+<script>
+  const API_URL = "https://script.google.com/a/macros/flipkart.com/s/AKfycbxtTSx4GrExIHMzFAOu3OuSHzkxHCsLU_C1ya2Aq4hwR4fm0yO-_q7VWkS99Bsf1696/exec";
+  let globalData = null;
+  let currentReport = 'mye';
+
+  function fetchDashboardData() {
+    fetch(API_URL)
+      .then(res => res.json())
+      .then(data => {
+        globalData = data;
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('dashboard-content').style.display = 'block';
+        renderDashboard();
+      })
+      .catch(err => {
+        document.getElementById('loader').innerHTML = "<span style='color:red;'>Failed to load dashboard data.</span>";
+      });
+  }
+
+  function renderStatusBar(run, label) {
+    if (!run) return `<div class="status-bar status-none"><b>${label}:</b> No run recorded yet.</div>`;
+    const cls = run.status === 'SUCCESS' ? 'status-ok' : 'status-err';
+    return `<div class="status-bar ${cls}">
+      <b>${label}:</b> ${new Date(run.time).toLocaleString('en-IN',{timeZone:'Asia/Kolkata'})}
+      &nbsp;|&nbsp; <b>Status:</b> ${run.status}
+      &nbsp;|&nbsp; <b>Subject:</b> ${run.subject}
+      &nbsp;|&nbsp; <b>PHs:</b> ${run.phCount} &nbsp;|&nbsp; <b>GMs:</b> ${run.gmCount}
+    </div>`;
+  }
+
+  function buildPanels(byDate, prefix, metrics) {
+    const dates = Object.keys(byDate).sort().reverse();
+    if (!dates.length) return `<div style="padding:20px;color:#888;">No data available.</div>`;
+    
+    const metricHeaders = metrics.map(c => `<th>${c}</th>`).join('');
+    let html = '';
+
+    for (const date of dates) {
+      const tillList = Object.keys(byDate[date]).sort().reverse();
+      let tillPanels = '';
+      for (const till of tillList) {
+        const d = byDate[date][till];
+        const panelId = prefix + '_' + (date + '_' + till).replace(/[^a-z0-9]/gi, '_');
+
+        const zoneRows = d.zone ? `
+          <tr><td class="lbl">West</td>${d.zone.vals.map(v => `<td>${v}</td>`).join('')}</tr>
+          <tr class="grand"><td class="lbl">Grand Total</td>${d.zone.vals.map(v => `<td>${v}</td>`).join('')}</tr>` : '';
+
+        const gmData = d.gms.filter(g => g.label !== 'Grand Total');
+        const gmGrand = d.gms.find(g => g.label === 'Grand Total');
+        const gmRows = gmData.map(g => `<tr><td class="lbl">${g.label}</td>${g.vals.map(v => `<td>${v}</td>`).join('')}</tr>`).join('') +
+          (gmGrand ? `<tr class="grand"><td class="lbl">Grand Total</td>${gmGrand.vals.map(v => `<td>${v}</td>`).join('')}</tr>` : '');
+
+        const phByGm = {};
+        for (const ph of d.phs) {
+          if (!phByGm[ph.gm]) phByGm[ph.gm] = [];
+          phByGm[ph.gm].push(ph);
+        }
+        const phSection = Object.entries(phByGm).map(([gm, phs]) => `
+          <div class="gm-hdr">GM: ${gm}</div>
+          <table>
+            <tr><th>PH Name</th>${metricHeaders}</tr>
+            ${phs.map(ph => `<tr><td class="lbl">${ph.label}</td>${ph.vals.map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}
+          </table>`).join('');
+
+        tillPanels += `
+          <div class="till-panel" id="${panelId}" style="display:none">
+            <h3>Zone Summary</h3>
+            <table><tr><th>Zone</th>${metricHeaders}</tr>${zoneRows}</table>
+            <h3>GM Summary</h3>
+            <table><tr><th>GM</th>${metricHeaders}</tr>${gmRows}</table>
+            <h3>PH wise — Grouped by GM</h3>${phSection}
+          </div>`;
+      }
+      html += `<div class="date-block" data-prefix="${prefix}" data-date="${date}">${tillPanels}</div>`;
+    }
+    return html;
+  }
+
+  function renderDashboard() {
+    document.getElementById('status-mye').innerHTML = renderStatusBar(globalData.myeRun, 'MYE NRT');
+    document.getElementById('status-fkmp').innerHTML = renderStatusBar(globalData.fkmpRun, 'FKMP D0 Breach');
+
+    document.getElementById('mye-panels').innerHTML = buildPanels(globalData.myeByDate, 'mye', globalData.metricCols);
+    document.getElementById('fkmp-panels').innerHTML = buildPanels(globalData.fkmpByDate, 'fkmp', globalData.fkmpMetricCols);
+
+    switchReport('mye');
+  }
+
+  function switchReport(name) {
+    currentReport = name;
+    document.querySelectorAll('.report-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('report-' + name).classList.add('active');
+    document.getElementById('btn-mye').className = 'type-btn' + (name === 'mye' ? ' mye-active' : '');
+    document.getElementById('btn-fkmp').className = 'type-btn' + (name === 'fkmp' ? ' fkmp-active' : '');
+
+    const tillsMap = name === 'mye' ? globalData.myeByDate : globalData.fkmpByDate;
+    const dates = Object.keys(tillsMap).sort().reverse();
+    const dateSel = document.getElementById('date-select');
+    dateSel.innerHTML = dates.map((d, i) => `<option value="${d}" ${i === 0 ? 'selected' : ''}>${d}</option>`).join('');
+    onDateChange();
+  }
+
+  function onDateChange() {
+    const date = document.getElementById('date-select').value;
+    const tillsMap = currentReport === 'mye' ? globalData.myeByDate : globalData.fkmpByDate;
+    const tills = Object.keys(tillsMap[date] || {}).sort().reverse();
+    const tillSel = document.getElementById('till-select');
+    tillSel.innerHTML = tills.map((t, i) => `<option value="${t}" ${i === 0 ? 'selected' : ''}>${t}</option>`).join('');
+    onTillChange();
+  }
+
+  function onTillChange() {
+    const date = document.getElementById('date-select').value;
+    const till = document.getElementById('till-select').value;
+    const prefix = currentReport;
+
+    const rPanel = document.getElementById('report-' + prefix);
+    rPanel.querySelectorAll('.till-panel').forEach(p => p.style.display = 'none');
+    
+    const id = prefix + '_' + (date + '_' + till).replace(/[^a-z0-9]/gi, '_');
+    const panel = document.getElementById(id);
+    if (panel) panel.style.display = 'block';
+  }
+
+  window.onload = fetchDashboardData;
+</script>
+</body>
+</html>
