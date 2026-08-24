@@ -43,7 +43,7 @@
 
 <div class="topbar">West Zone D0 Reporting Dashboard</div>
 
-<div id="loader">Loading Dashboard Data...</div>
+<div id="loader">Loading Dashboard Data via JSONP...</div>
 
 <div id="dashboard-content" style="display:none;">
   <div class="dual-status">
@@ -78,22 +78,35 @@
 </div>
 
 <script>
+  // YOUR APPS SCRIPT WEB APP URL
   const API_URL = "https://script.google.com/a/macros/flipkart.com/s/AKfycbxtTSx4GrExIHMzFAOu3OuSHzkxHCsLU_C1ya2Aq4hwR4fm0yO-_q7VWkS99Bsf1696/exec";
+  
   let globalData = null;
   let currentReport = 'mye';
 
+  // Step 1: Execute JSONP Injection
   function fetchDashboardData() {
-    fetch(API_URL)
-      .then(res => res.json())
-      .then(data => {
-        globalData = data;
-        document.getElementById('loader').style.display = 'none';
-        document.getElementById('dashboard-content').style.display = 'block';
-        renderDashboard();
-      })
-      .catch(err => {
-        document.getElementById('loader').innerHTML = "<span style='color:red;'>Failed to load dashboard data.</span>";
-      });
+    const script = document.createElement('script');
+    script.src = API_URL + '?callback=handleDashboardResponse';
+    
+    script.onerror = function() {
+      document.getElementById('loader').innerHTML = 
+        "<span style='color:red;'>Failed to load dashboard data via script injection.</span>";
+    };
+    
+    document.body.appendChild(script);
+  }
+
+  // Step 2: Global Callback Handler for JSONP
+  function handleDashboardResponse(data) {
+    if (!data) {
+      document.getElementById('loader').innerHTML = "<span style='color:red;'>Received empty payload from script.</span>";
+      return;
+    }
+    globalData = data;
+    document.getElementById('loader').style.display = 'none';
+    document.getElementById('dashboard-content').style.display = 'block';
+    renderDashboard();
   }
 
   function renderStatusBar(run, label) {
