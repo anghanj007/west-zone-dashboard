@@ -7,8 +7,8 @@
     "status": "SUCCESS"
   },
   "fkmpRun": {
-    "time": "2026-09-02T17:34:39.530Z",
-    "subject": "WEST || FKMP NRT : D0 Attempt Breach View Till22:00 || 02 September",
+    "time": "2026-09-02T18:34:27.452Z",
+    "subject": "WEST || FKMP NRT : D0 Attempt Breach View Till23:00 || 02 September",
     "phCount": "?",
     "gmCount": "?",
     "status": "SUCCESS"
@@ -658514,6 +658514,2449 @@
               995,
               67568,
               8236
+            ]
+          }
+        ]
+      },
+      "View Till23:00 || 02 September": {
+        "zone": {
+          "label": "West",
+          "vals": [
+            1577642,
+            1294081,
+            1215961,
+            1195580,
+            150,
+            3082,
+            6464,
+            1220,
+            9465,
+            190704,
+            794873,
+            210003
+          ]
+        },
+        "gms": [
+          {
+            "label": "Ashvani Bhatt",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sahil Patel",
+            "vals": [
+              1035966,
+              852751,
+              800989,
+              793034,
+              4,
+              1589,
+              2455,
+              148,
+              3759,
+              88219,
+              532178,
+              172637
+            ]
+          },
+          {
+            "label": "Ashwarya Singh",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Sanjay Kawar",
+            "vals": [
+              199811,
+              166524,
+              154898,
+              151192,
+              2,
+              384,
+              820,
+              131,
+              2369,
+              2782,
+              128378,
+              20032
+            ]
+          },
+          {
+            "label": "Ankur Sinha",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              179255,
+              147284,
+              139223,
+              134026,
+              130,
+              582,
+              1930,
+              452,
+              2103,
+              53909,
+              73703,
+              6414
+            ]
+          },
+          {
+            "label": "Swapnil Borgaonkar (MP)",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              110273,
+              86144,
+              81151,
+              78752,
+              6,
+              308,
+              1185,
+              322,
+              578,
+              27885,
+              40223,
+              10644
+            ]
+          },
+          {
+            "label": "Swapnil Borgaonkar (MH)",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              52131,
+              41378,
+              39652,
+              38576,
+              8,
+              171,
+              74,
+              167,
+              656,
+              17909,
+              20391,
+              276
+            ]
+          },
+          {
+            "label": "Unassigned",
+            "gm": "Unassigned",
+            "rm": "Unassigned",
+            "am": "Unassigned",
+            "vals": [
+              206,
+              0,
+              48,
+              0,
+              0,
+              48,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "Grand Total",
+            "gm": "",
+            "rm": "",
+            "am": "",
+            "vals": [
+              1577642,
+              1294081,
+              1215961,
+              1195580,
+              150,
+              3082,
+              6464,
+              1220,
+              9465,
+              190704,
+              794873,
+              210003
+            ]
+          }
+        ],
+        "phs": [
+          {
+            "label": "AhmedNagarHub_AHN_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              592,
+              375,
+              370,
+              329,
+              0,
+              29,
+              3,
+              0,
+              9,
+              328,
+              0,
+              1
+            ]
+          },
+          {
+            "label": "AkolaHub_AKD_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              210,
+              158,
+              160,
+              137,
+              0,
+              0,
+              0,
+              0,
+              23,
+              137,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "AmravatiHub_AMI_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              52,
+              37,
+              24,
+              22,
+              0,
+              0,
+              0,
+              2,
+              0,
+              22,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "AmroliHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sahil Patel",
+            "vals": [
+              34334,
+              30635,
+              28119,
+              27745,
+              4,
+              0,
+              0,
+              69,
+              301,
+              943,
+              21290,
+              5512
+            ]
+          },
+          {
+            "label": "AnandHub_AMD_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              662,
+              531,
+              500,
+              498,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              498,
+              0
+            ]
+          },
+          {
+            "label": "Aslalihub_ASL_IPH_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              8863,
+              8316,
+              8047,
+              7947,
+              1,
+              14,
+              85,
+              0,
+              0,
+              0,
+              7102,
+              845
+            ]
+          },
+          {
+            "label": "AurangabadHub_IXU_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              937,
+              895,
+              808,
+              806,
+              0,
+              0,
+              0,
+              0,
+              2,
+              804,
+              0,
+              2
+            ]
+          },
+          {
+            "label": "BINAHUB_BIN_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              3337,
+              2402,
+              2357,
+              2325,
+              0,
+              4,
+              0,
+              1,
+              27,
+              2325,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "BalaghatHub_BGT_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              138,
+              119,
+              113,
+              107,
+              0,
+              0,
+              0,
+              0,
+              6,
+              107,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "BaramatiHub_BRM_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              951,
+              274,
+              265,
+              265,
+              0,
+              0,
+              0,
+              0,
+              0,
+              265,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "BharuchHub_BRH_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              1325,
+              1204,
+              1153,
+              1138,
+              0,
+              0,
+              0,
+              0,
+              15,
+              256,
+              882,
+              0
+            ]
+          },
+          {
+            "label": "BhavnagarHub_BVG_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              9475,
+              8421,
+              6945,
+              6911,
+              0,
+              2,
+              0,
+              0,
+              32,
+              6911,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "BhiwandiHub_BHI_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Sanjay Kawar",
+            "vals": [
+              27955,
+              21294,
+              20773,
+              19703,
+              0,
+              6,
+              0,
+              7,
+              1057,
+              178,
+              5993,
+              13532
+            ]
+          },
+          {
+            "label": "Bhiwandisplithub_BHI_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Sanjay Kawar",
+            "vals": [
+              35371,
+              30327,
+              28075,
+              27911,
+              2,
+              8,
+              0,
+              3,
+              151,
+              963,
+              23317,
+              3631
+            ]
+          },
+          {
+            "label": "BhujHub_BHJ_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              672,
+              545,
+              516,
+              512,
+              0,
+              0,
+              0,
+              0,
+              4,
+              512,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "BoisarHub_BIS_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              321,
+              232,
+              228,
+              205,
+              0,
+              6,
+              17,
+              0,
+              0,
+              205,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ChhindwaraHub_CHH_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              151,
+              46,
+              67,
+              41,
+              0,
+              0,
+              0,
+              26,
+              0,
+              41,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "CollegeRoadHub_NSK_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              3270,
+              2798,
+              2631,
+              2546,
+              0,
+              0,
+              0,
+              0,
+              85,
+              2546,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "CornerRoadHub_IXU_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              1556,
+              1478,
+              1451,
+              1440,
+              0,
+              10,
+              0,
+              1,
+              0,
+              1440,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "DewasHub_DWS_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              432,
+              300,
+              293,
+              272,
+              0,
+              1,
+              0,
+              0,
+              20,
+              0,
+              272,
+              0
+            ]
+          },
+          {
+            "label": "DhankawadiHub_PUNE_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              14421,
+              12480,
+              11931,
+              11717,
+              0,
+              48,
+              0,
+              3,
+              163,
+              73,
+              11644,
+              0
+            ]
+          },
+          {
+            "label": "DhuleHub_DHL_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              72,
+              59,
+              47,
+              46,
+              0,
+              0,
+              0,
+              0,
+              1,
+              46,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "DindoliHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sushil Pal",
+            "vals": [
+              108752,
+              95607,
+              92010,
+              90181,
+              0,
+              308,
+              1125,
+              15,
+              381,
+              5320,
+              71755,
+              13106
+            ]
+          },
+          {
+            "label": "ELASTICRUNKHARGONEODH_KHG_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              1196,
+              935,
+              844,
+              821,
+              0,
+              11,
+              12,
+              0,
+              0,
+              821,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ELASTICRUNMAHUVAODH_MHV_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              1214,
+              665,
+              676,
+              631,
+              0,
+              0,
+              0,
+              0,
+              45,
+              631,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ELASTICRUNPARATWADAODH_PRT_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              102,
+              102,
+              88,
+              88,
+              0,
+              0,
+              0,
+              0,
+              0,
+              88,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "FortHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              22112,
+              18443,
+              16657,
+              16030,
+              0,
+              91,
+              461,
+              3,
+              72,
+              5,
+              16025,
+              0
+            ]
+          },
+          {
+            "label": "GandhiNagarHub_GAN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              5559,
+              4961,
+              4673,
+              4661,
+              0,
+              8,
+              0,
+              0,
+              4,
+              4660,
+              0,
+              1
+            ]
+          },
+          {
+            "label": "GandhidhamHub_GDM_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              387,
+              316,
+              278,
+              277,
+              0,
+              0,
+              0,
+              0,
+              1,
+              277,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "GondalHub_GDN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              1588,
+              1173,
+              1069,
+              993,
+              0,
+              47,
+              0,
+              4,
+              25,
+              993,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "GoregaonMPHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              15455,
+              12950,
+              11457,
+              11310,
+              0,
+              2,
+              0,
+              21,
+              124,
+              1,
+              11309,
+              0
+            ]
+          },
+          {
+            "label": "GunaHub_GUN_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              283,
+              200,
+              200,
+              191,
+              0,
+              0,
+              0,
+              0,
+              9,
+              191,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "GwaliorHub_GWL_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              27574,
+              23592,
+              21977,
+              21162,
+              1,
+              246,
+              567,
+              0,
+              1,
+              12,
+              21150,
+              0
+            ]
+          },
+          {
+            "label": "Halolhub_HLL_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              442,
+              410,
+              346,
+              342,
+              0,
+              1,
+              3,
+              0,
+              0,
+              342,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "HimmatnagarHub_HMT_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              430,
+              402,
+              361,
+              358,
+              0,
+              0,
+              0,
+              0,
+              3,
+              358,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "HoshangabadHub_HGB_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              54,
+              48,
+              37,
+              37,
+              0,
+              0,
+              0,
+              0,
+              0,
+              37,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "IndoreSplitHub_IDR_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              39065,
+              30801,
+              28673,
+              28413,
+              1,
+              32,
+              0,
+              51,
+              176,
+              257,
+              17512,
+              10644
+            ]
+          },
+          {
+            "label": "JabalpurHub_JBL_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              8802,
+              5766,
+              6001,
+              5446,
+              0,
+              11,
+              542,
+              1,
+              1,
+              5446,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "JalgaonHub_JGO_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              499,
+              383,
+              375,
+              366,
+              0,
+              1,
+              0,
+              0,
+              8,
+              366,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "JamnagarHub_QGR_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              1388,
+              1206,
+              1167,
+              1161,
+              0,
+              0,
+              0,
+              1,
+              5,
+              1161,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "JasdanHub_JSN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              844,
+              520,
+              554,
+              493,
+              0,
+              0,
+              0,
+              0,
+              61,
+              493,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "JunagadhHub_IXK_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              1711,
+              1615,
+              1529,
+              1500,
+              0,
+              10,
+              19,
+              0,
+              0,
+              1500,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KOORIEEMUMBRAODH_MBR_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              2194,
+              1671,
+              1350,
+              1326,
+              0,
+              1,
+              23,
+              0,
+              0,
+              1326,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KalolHub_GAN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              563,
+              463,
+              443,
+              418,
+              0,
+              24,
+              0,
+              0,
+              1,
+              418,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KalyanHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Sanjay Kawar",
+            "vals": [
+              8204,
+              5600,
+              5287,
+              5227,
+              0,
+              15,
+              0,
+              0,
+              45,
+              3,
+              4661,
+              563
+            ]
+          },
+          {
+            "label": "KamrejHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sarfaraz Shaikh",
+            "vals": [
+              47607,
+              43455,
+              40959,
+              40555,
+              0,
+              85,
+              0,
+              3,
+              316,
+              428,
+              28728,
+              11399
+            ]
+          },
+          {
+            "label": "KaradHub_KRD_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              590,
+              580,
+              571,
+              567,
+              0,
+              1,
+              3,
+              0,
+              0,
+              567,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KatniHub_KTN_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              2695,
+              2166,
+              2310,
+              2108,
+              4,
+              0,
+              0,
+              187,
+              11,
+              2108,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KhandwaHub_KWA_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              1004,
+              866,
+              867,
+              846,
+              0,
+              0,
+              0,
+              0,
+              21,
+              846,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KhopoliHub_KPL_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              28,
+              13,
+              12,
+              12,
+              0,
+              0,
+              0,
+              0,
+              0,
+              12,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KolhapurHub_KHL_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              5167,
+              4829,
+              4800,
+              4760,
+              0,
+              0,
+              0,
+              1,
+              39,
+              4760,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "KopargaonHub_KPG_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              286,
+              264,
+              247,
+              243,
+              0,
+              4,
+              0,
+              0,
+              0,
+              243,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "LalparHub_LLP_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              346,
+              270,
+              204,
+              189,
+              7,
+              0,
+              0,
+              5,
+              3,
+              189,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "MANDSAURHUB_MAN_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              1367,
+              1000,
+              928,
+              911,
+              0,
+              1,
+              0,
+              7,
+              9,
+              911,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "MalegaonHub_MLG_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              2974,
+              1700,
+              1658,
+              1632,
+              0,
+              3,
+              23,
+              0,
+              0,
+              1632,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ManinagarHub_ADI_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              27652,
+              23523,
+              22617,
+              22221,
+              0,
+              106,
+              287,
+              2,
+              1,
+              6356,
+              15681,
+              184
+            ]
+          },
+          {
+            "label": "MehsanaHub_MHN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              1422,
+              860,
+              985,
+              737,
+              0,
+              0,
+              0,
+              0,
+              248,
+              737,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "MhalungeHub_CHK_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              24,
+              18,
+              18,
+              17,
+              0,
+              1,
+              0,
+              0,
+              0,
+              17,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "MiraRoadHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              10796,
+              9541,
+              8750,
+              8507,
+              0,
+              5,
+              0,
+              56,
+              182,
+              1,
+              8506,
+              0
+            ]
+          },
+          {
+            "label": "MorbiHub_MRB_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              5351,
+              4000,
+              4125,
+              3721,
+              0,
+              67,
+              336,
+              0,
+              1,
+              3721,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "MotaVarachhaSplitHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sahil Patel",
+            "vals": [
+              59137,
+              55636,
+              53244,
+              52850,
+              0,
+              0,
+              0,
+              4,
+              390,
+              9698,
+              29284,
+              13868
+            ]
+          },
+          {
+            "label": "Motavarachahub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sushil Pal",
+            "vals": [
+              46752,
+              34697,
+              32627,
+              32349,
+              0,
+              63,
+              64,
+              0,
+              151,
+              16305,
+              8898,
+              7146
+            ]
+          },
+          {
+            "label": "MundraHub_MUD_PL",
+            "gm": "Unassigned",
+            "rm": "Unassigned",
+            "am": "Unassigned",
+            "vals": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "NadiadHub_AMD_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              1923,
+              1664,
+              1134,
+              939,
+              0,
+              0,
+              0,
+              2,
+              193,
+              48,
+              830,
+              61
+            ]
+          },
+          {
+            "label": "NandedHub_NDC_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              475,
+              395,
+              367,
+              351,
+              0,
+              0,
+              0,
+              3,
+              13,
+              351,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "NavsariHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Harsh Shah",
+            "vals": [
+              3875,
+              3174,
+              2348,
+              2305,
+              0,
+              2,
+              26,
+              1,
+              14,
+              0,
+              1989,
+              316
+            ]
+          },
+          {
+            "label": "PalanpurHub_PLN_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              1924,
+              1672,
+              1586,
+              1586,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1586,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "PalgharHub_PAR_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              534,
+              525,
+              506,
+              505,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              505,
+              0
+            ]
+          },
+          {
+            "label": "PanchavatiHub_NSK_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              957,
+              712,
+              671,
+              654,
+              0,
+              2,
+              0,
+              3,
+              12,
+              654,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "PhursungiHub_Pune_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              496,
+              302,
+              309,
+              261,
+              0,
+              2,
+              45,
+              0,
+              1,
+              261,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "Pimpri_PNQ_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              2929,
+              2023,
+              1920,
+              1814,
+              5,
+              41,
+              0,
+              9,
+              51,
+              10,
+              1804,
+              0
+            ]
+          },
+          {
+            "label": "PorbandarHub_POR_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              106,
+              65,
+              55,
+              55,
+              0,
+              0,
+              0,
+              0,
+              0,
+              55,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "RajkotHub_RAJ_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              24052,
+              17777,
+              17434,
+              16181,
+              19,
+              71,
+              446,
+              44,
+              673,
+              609,
+              14867,
+              705
+            ]
+          },
+          {
+            "label": "Rajkotsplithub_RAJ_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              21509,
+              17067,
+              16075,
+              15094,
+              97,
+              85,
+              227,
+              71,
+              501,
+              13221,
+              0,
+              1873
+            ]
+          },
+          {
+            "label": "RatlamHub_RTM_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              2058,
+              1588,
+              1539,
+              1534,
+              0,
+              0,
+              0,
+              1,
+              4,
+              1534,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "SagarHub_SGR_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              13879,
+              10918,
+              9857,
+              9746,
+              0,
+              0,
+              0,
+              0,
+              111,
+              9746,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "SakinakaHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              12046,
+              9813,
+              9102,
+              8949,
+              0,
+              4,
+              0,
+              18,
+              131,
+              2,
+              8947,
+              0
+            ]
+          },
+          {
+            "label": "SangliHub_SNG_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              1024,
+              658,
+              630,
+              626,
+              0,
+              1,
+              0,
+              0,
+              3,
+              626,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "SaniyaHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Harsh Shah",
+            "vals": [
+              82859,
+              77772,
+              74338,
+              73702,
+              0,
+              102,
+              364,
+              0,
+              170,
+              35889,
+              31659,
+              6154
+            ]
+          },
+          {
+            "label": "SaroliHubSplit_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sushil Pal",
+            "vals": [
+              59964,
+              49768,
+              46713,
+              46438,
+              0,
+              3,
+              0,
+              2,
+              270,
+              1093,
+              32668,
+              12677
+            ]
+          },
+          {
+            "label": "SaroliHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sarfaraz Shaikh",
+            "vals": [
+              68318,
+              43847,
+              41155,
+              40871,
+              0,
+              17,
+              0,
+              11,
+              256,
+              215,
+              25176,
+              15480
+            ]
+          },
+          {
+            "label": "SataraHub_STR_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              254,
+              233,
+              173,
+              168,
+              0,
+              0,
+              0,
+              0,
+              5,
+              168,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "SatnaHub_STA_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              313,
+              233,
+              220,
+              208,
+              0,
+              0,
+              0,
+              0,
+              12,
+              208,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "Sewrihub_Mum_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              33064,
+              28725,
+              26950,
+              26425,
+              0,
+              73,
+              14,
+              17,
+              421,
+              12,
+              24107,
+              2306
+            ]
+          },
+          {
+            "label": "ShukrawarpethHub_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              5252,
+              3647,
+              3603,
+              3240,
+              3,
+              20,
+              0,
+              128,
+              212,
+              20,
+              3220,
+              0
+            ]
+          },
+          {
+            "label": "ShyamalHub_SHY_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              14945,
+              11987,
+              11592,
+              11059,
+              0,
+              8,
+              0,
+              320,
+              205,
+              19,
+              11039,
+              1
+            ]
+          },
+          {
+            "label": "ShyamalOPH_IPH_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              5990,
+              3725,
+              3682,
+              3372,
+              0,
+              64,
+              245,
+              0,
+              1,
+              1827,
+              0,
+              1545
+            ]
+          },
+          {
+            "label": "SilvassaHub_AMD_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Harsh Shah",
+            "vals": [
+              454,
+              248,
+              356,
+              242,
+              0,
+              113,
+              0,
+              0,
+              1,
+              0,
+              242,
+              0
+            ]
+          },
+          {
+            "label": "SingapurHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sahil Patel",
+            "vals": [
+              93532,
+              73632,
+              67398,
+              67063,
+              0,
+              170,
+              7,
+              0,
+              158,
+              5756,
+              40450,
+              20857
+            ]
+          },
+          {
+            "label": "SolapurHub_SSE_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              2860,
+              2396,
+              2345,
+              2341,
+              0,
+              0,
+              0,
+              0,
+              4,
+              2341,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "StationTempHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sahil Patel",
+            "vals": [
+              69986,
+              49597,
+              46052,
+              45848,
+              0,
+              4,
+              0,
+              10,
+              190,
+              133,
+              28832,
+              16883
+            ]
+          },
+          {
+            "label": "SuratHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Preet Dhaduk",
+            "vals": [
+              138474,
+              108970,
+              101660,
+              100832,
+              0,
+              111,
+              216,
+              10,
+              491,
+              4626,
+              78882,
+              17324
+            ]
+          },
+          {
+            "label": "SuratTempHub_STV",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Preet Dhaduk",
+            "vals": [
+              71444,
+              55893,
+              52128,
+              50701,
+              0,
+              579,
+              653,
+              12,
+              183,
+              5361,
+              36976,
+              8364
+            ]
+          },
+          {
+            "label": "SurendraNagarHub_SDR_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              1826,
+              1643,
+              1552,
+              1552,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1552,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "TalegaonHub_PNQ_PL",
+            "gm": "Unassigned",
+            "rm": "Unassigned",
+            "am": "Unassigned",
+            "vals": [
+              205,
+              0,
+              48,
+              0,
+              0,
+              48,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "ThaneHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Sanjay Kawar",
+            "vals": [
+              2509,
+              2113,
+              1920,
+              1907,
+              0,
+              1,
+              0,
+              4,
+              8,
+              0,
+              1907,
+              0
+            ]
+          },
+          {
+            "label": "TrimurtiNagarHub_NAG_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              2173,
+              1461,
+              1423,
+              1403,
+              0,
+              0,
+              0,
+              14,
+              6,
+              4,
+              1399,
+              0
+            ]
+          },
+          {
+            "label": "UdhnaHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Sushil Pal",
+            "vals": [
+              41984,
+              40035,
+              38149,
+              38013,
+              0,
+              28,
+              0,
+              0,
+              108,
+              744,
+              30354,
+              6915
+            ]
+          },
+          {
+            "label": "UjjainHub_UJN_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              2573,
+              1409,
+              1476,
+              1368,
+              0,
+              2,
+              64,
+              1,
+              41,
+              79,
+              1289,
+              0
+            ]
+          },
+          {
+            "label": "UnaHub_UNA_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              214,
+              189,
+              180,
+              169,
+              0,
+              0,
+              0,
+              0,
+              11,
+              169,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "VadodaraHub_BDQ_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              6986,
+              5917,
+              5411,
+              5332,
+              6,
+              8,
+              0,
+              3,
+              62,
+              5036,
+              296,
+              0
+            ]
+          },
+          {
+            "label": "ValsadHub_AMD_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Harsh Shah",
+            "vals": [
+              745,
+              729,
+              650,
+              644,
+              0,
+              1,
+              0,
+              0,
+              5,
+              644,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "VapiHub_AMD_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Harsh Shah",
+            "vals": [
+              2272,
+              2153,
+              2034,
+              2021,
+              0,
+              0,
+              0,
+              2,
+              11,
+              0,
+              2021,
+              0
+            ]
+          },
+          {
+            "label": "VarachhaHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Preet Dhaduk",
+            "vals": [
+              4632,
+              4632,
+              3875,
+              3875,
+              0,
+              0,
+              0,
+              0,
+              0,
+              96,
+              1172,
+              2607
+            ]
+          },
+          {
+            "label": "VasaiHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              18623,
+              15781,
+              14796,
+              14306,
+              0,
+              167,
+              305,
+              2,
+              16,
+              74,
+              14232,
+              0
+            ]
+          },
+          {
+            "label": "VashiHub_MUM_PL",
+            "gm": "Ashwarya Singh",
+            "rm": "Ashish Ghete",
+            "am": "Rahul Vhatkar",
+            "vals": [
+              10599,
+              9496,
+              9035,
+              8869,
+              0,
+              5,
+              0,
+              0,
+              161,
+              0,
+              8869,
+              0
+            ]
+          },
+          {
+            "label": "VastralHub_ADI_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Hrishi Kumar",
+            "vals": [
+              29622,
+              25975,
+              24142,
+              23788,
+              0,
+              66,
+              281,
+              0,
+              7,
+              81,
+              22508,
+              1199
+            ]
+          },
+          {
+            "label": "VeravalHub_VRV_PL",
+            "gm": "Ankur Sinha",
+            "rm": "Dixit Joshi",
+            "am": "Pritesh Buch",
+            "vals": [
+              264,
+              202,
+              192,
+              191,
+              0,
+              0,
+              1,
+              0,
+              0,
+              191,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "VidyanagarHub_BHO_PL",
+            "gm": "Swapnil Borgaonkar (MP)",
+            "rm": "Amit Dey",
+            "am": "Devendra Dixit",
+            "vals": [
+              5352,
+              3755,
+              3392,
+              3216,
+              0,
+              0,
+              0,
+              47,
+              129,
+              3216,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "WagholiHub_PNQ_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              886,
+              686,
+              666,
+              656,
+              0,
+              8,
+              0,
+              1,
+              1,
+              0,
+              656,
+              0
+            ]
+          },
+          {
+            "label": "WardhaHub_WRD_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              412,
+              213,
+              118,
+              115,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              115,
+              0
+            ]
+          },
+          {
+            "label": "WardhamanNagar_NAG_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              2469,
+              2079,
+              1844,
+              1828,
+              0,
+              0,
+              0,
+              2,
+              14,
+              2,
+              1553,
+              273
+            ]
+          },
+          {
+            "label": "YavatmalHub_YTM_PL",
+            "gm": "Swapnil Borgaonkar (MH)",
+            "rm": "Jitendra Mishra",
+            "am": "Sandip Mandole",
+            "vals": [
+              241,
+              143,
+              139,
+              138,
+              0,
+              0,
+              0,
+              0,
+              1,
+              138,
+              0,
+              0
+            ]
+          },
+          {
+            "label": "YogiChowkTempHub_STV_PL",
+            "gm": "Ashvani Bhatt",
+            "rm": "Pujnesh Tiwari",
+            "am": "Thomas Joshi",
+            "vals": [
+              100845,
+              82271,
+              77174,
+              76799,
+              0,
+              3,
+              0,
+              9,
+              363,
+              968,
+              61802,
+              14029
             ]
           }
         ]
